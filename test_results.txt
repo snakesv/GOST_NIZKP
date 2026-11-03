@@ -1,0 +1,30 @@
+test_domain_and_group_boundaries (test_protocol.CoreTests.test_domain_and_group_boundaries) ... ok
+test_each_context_field_is_bound (test_protocol.CoreTests.test_each_context_field_is_bound) ... ok
+test_fresh_nonce (test_protocol.CoreTests.test_fresh_nonce) ... ok
+test_frozen_protocol_vector (test_protocol.CoreTests.test_frozen_protocol_vector) ... ok
+test_identity_rejected_and_zero_response_permitted (test_protocol.CoreTests.test_identity_rejected_and_zero_response_permitted) ... ok
+test_invalid_public_keys (test_protocol.CoreTests.test_invalid_public_keys) ... ok
+test_key_and_response_tampering (test_protocol.CoreTests.test_key_and_response_tampering) ... ok
+test_noncanonical_scalars (test_protocol.CoreTests.test_noncanonical_scalars) ... ok
+test_point_sign_encodings (test_protocol.CoreTests.test_point_sign_encodings) ... ok
+test_random_roundtrips (test_protocol.CoreTests.test_random_roundtrips) ... ok
+test_rejection_sampling (test_protocol.CoreTests.test_rejection_sampling) ... ok
+test_rfc5832_independent_arithmetic_vector (test_protocol.CoreTests.test_rfc5832_independent_arithmetic_vector) ... ok
+test_signed_extractor_both_branches (test_protocol.CoreTests.test_signed_extractor_both_branches) ... ok
+test_simulator_algebra (test_protocol.CoreTests.test_simulator_algebra) ... ok
+test_size_limits_and_unambiguous_encoding (test_protocol.CoreTests.test_size_limits_and_unambiguous_encoding) ... ok
+test_capacity_fails_closed_and_expiry_releases_space (test_protocol.ServiceTests.test_capacity_fails_closed_and_expiry_releases_space) ... ok
+test_clock_rollback_fails_closed (test_protocol.ServiceTests.test_clock_rollback_fails_closed) ... ok
+test_concurrent_duplicates_accept_exactly_once (test_protocol.ServiceTests.test_concurrent_duplicates_accept_exactly_once) ... ok
+test_invalid_requests_do_not_poison_replay_store (test_protocol.ServiceTests.test_invalid_requests_do_not_poison_replay_store) ... ok
+test_replay_and_connection_binding (test_protocol.ServiceTests.test_replay_and_connection_binding) ... ok
+test_revocation_and_rotation (test_protocol.ServiceTests.test_revocation_and_rotation) ... ok
+test_timestamp_boundaries (test_protocol.ServiceTests.test_timestamp_boundaries) ... ok
+test_wrong_account_and_version (test_protocol.ServiceTests.test_wrong_account_and_version) ... ok
+test_roundtrip_and_randomization (test_protocol.VaultTests.test_roundtrip_and_randomization) ... ok
+test_wrong_password_owner_and_tampering (test_protocol.VaultTests.test_wrong_password_owner_and_tampering) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 2.670s
+
+OK
